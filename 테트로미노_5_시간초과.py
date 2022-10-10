@@ -2,13 +2,17 @@ import sys
 import copy
 input = sys.stdin.readline
 
-# 입력
-# 종이 크기
-N, M = list(map(int, input().split()))
-paper = []
-# 종이 안에 숫자
-paper = [list(map(int, input().split())) for _ in range(N)]
-# 지나갔으면 0으로 만들기
+N, M = 5, 5
+paper = [[1,2,3,4,5],[5,4,3,2,1],[2,3,4,5,6],[6,5,4,3,2],[1,2,1,2,1]]
+
+
+# # 입력
+# # 종이 크기
+# N, M = list(map(int, input().split()))
+# paper = []
+# # 종이 안에 숫자
+# paper = [list(map(int, input().split())) for _ in range(N)]
+# # 지나갔으면 0으로 만들기
 
 
 # 상, 하, 좌, 우
